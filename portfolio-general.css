@@ -69,7 +69,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    height: 70px;
+    height: 80px;
     background-color: #588157;
     border-radius: 17px;
     font-family: "Press Start 2P";
@@ -87,13 +87,11 @@ footer {
 .footer-socials {
     display: flex;
     height: 70px;
+    width: auto;
     flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
     font-size: 8px;
     color: #3A5A40;
-    margin-top: 20px;
-    line-height: 0.5;
+    margin-top: 10px;
 }
 
 
@@ -101,8 +99,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
 }
-.social{
+
+.social {
     margin-bottom: -1px;
 }
