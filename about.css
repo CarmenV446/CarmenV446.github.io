@@ -31,7 +31,6 @@ main {
     align-items: center;
     width: 1200px;
     height: 600px;
-
     background:
         linear-gradient(to right, #3A5A40 4px, transparent 4px) 0 0,
         linear-gradient(to left, #3A5A40 4px, transparent 4px) 100% 100%,
@@ -45,56 +44,175 @@ main {
 
 
 .photocard {
-    max-width:  350px;
+    max-width: 350px;
     max-height: 330px;
+    min-width: 250px;
+    min-height: 230px;
     margin-top: 20px;
     border: #3A5A40;
     border-style: solid;
 }
-.photocard-box{
+
+.photocard-box {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     width: 430px;
     height: 420px;
     background-color: #588157;
+    border-radius: 3px;
 }
 
-.photocard-text{
+.photocard-text {
     width: 350px;
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
-.photocard-text-big{
-    font-family:"Permanent Marker";
+
+.photocard-text-big {
+    font-family: "Permanent Marker";
     font-size: 19px;
     margin-top: -10px
 }
-.photocard-text-small{
+
+.photocard-text-small {
     font-family: "Coming Soon";
     font-size: 12px;
     margin-top: -5px;
+    color: white;
 }
-.photocard-symbol{
+
+.photocard-symbol {
     max-width: 15px;
     max-height: 15px;
 }
-.photocard-hobbies{
+
+.photocard-hobbies {
     width: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.hobbies-section{
+
+.hobbies-section {
     display: flex;
     margin-top: -5px;
     flex-direction: column;
 }
-.rec{
+
+.rec {
     color: #D12222;
-justify-self: flex-end;
-margin-bottom: -2px;
-margin-top: -30px;
-font-size: 27px;
+    justify-self: flex-end;
+    margin-bottom: -2px;
+    margin-top: -30px;
+    font-size: 27px;
+}
+
+.stats {
+    display: flex;
+    flex-flow: row wrap;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.all-bars {
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#progress-bar {
+    background-color: #DAD7CD;
+    border-radius: 13px;
+    width: 150px;
+}
+
+#first-bar {
+    background-color: #A3B18A;
+    width: 40%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#second-bar {
+    background-color: #A3B18A;
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#third-bar {
+    background-color: #A3B18A;
+    width: 55%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#fourth-bar {
+    background-color: #A3B18A;
+    width: 56%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#first-bar-tools {
+    background-color: #A3B18A;
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#second-bar-tools {
+    background-color: #A3B18A;
+    width: 48%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#third-bar-tools {
+    background-color: #A3B18A;
+    width: 65%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#fourth-bar-tools {
+    background-color: #A3B18A;
+    width: 56%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#first-bar-learn {
+    background-color: #3A5A40;
+    width: 0%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#second-bar-learn {
+    background-color: #3A5A40;
+    width: 6%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#third-bar-learn {
+    background-color: #3A5A40;
+    width: 7%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#fourth-bar-learn {
+    background-color: #3A5A40;
+    width: 4%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.link {
+    color: black;
 }
